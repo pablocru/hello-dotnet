@@ -24,7 +24,7 @@ All the workshops are in the `workshops/` folder, where each category has its ow
 
 ### How to run a project
 
-Execute `dotnet run` inside de folder of the desired project
+Execute `dotnet run` inside de folder of the desired project.
 
 ## Contribute
 

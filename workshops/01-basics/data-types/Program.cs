@@ -15,6 +15,9 @@
             Console.WriteLine("Integer: " + number);
             Console.WriteLine("Double: " + pi);
             Console.WriteLine("Boolean: " + isActive);
+
+            string[] fruits = ["Apple", "Banana", "Cherry"];
+            Console.WriteLine("First fruit: " + fruits[0]);
         }
     }
 }

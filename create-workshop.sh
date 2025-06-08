@@ -5,7 +5,7 @@
 if [ "$#" -ne 4 ]; then
   echo "Error: Invalid number of arguments."
   echo "Usage: $0 <number> <category> <name> <type>"
-  echo "Example: $0 01 web hello-world console"
+  echo "Example: $0 01 basics loops console"
   exit 1
 fi
 

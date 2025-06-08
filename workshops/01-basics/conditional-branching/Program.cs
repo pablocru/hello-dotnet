@@ -49,9 +49,6 @@ class Program
             case >= 65:
                 Console.WriteLine("You are a senior citizen.");
                 break;
-            default:
-                Console.WriteLine("Invalid age.");
-                break;
         }
     }
 }

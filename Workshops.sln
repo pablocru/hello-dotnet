@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "static-methods", "workshops
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "interfaces", "workshops\02-oop\interfaces\interfaces.csproj", "{9BA27E52-9B33-49B6-992E-11FCEDD823AE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "anonymous-object", "workshops\02-oop\anonymous-object\anonymous-object.csproj", "{21AC8B8C-D594-455F-97D7-A1F33AE23075}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -86,6 +88,10 @@ Global
 		{9BA27E52-9B33-49B6-992E-11FCEDD823AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9BA27E52-9B33-49B6-992E-11FCEDD823AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9BA27E52-9B33-49B6-992E-11FCEDD823AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21AC8B8C-D594-455F-97D7-A1F33AE23075}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21AC8B8C-D594-455F-97D7-A1F33AE23075}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21AC8B8C-D594-455F-97D7-A1F33AE23075}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21AC8B8C-D594-455F-97D7-A1F33AE23075}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{F4059E53-6580-4FDF-BB28-D0ABE12531CE} = {79F65436-9980-436D-A9A7-DC7F4A40B99F}
@@ -102,5 +108,6 @@ Global
 		{A3048768-8A9B-4E65-8A74-893F38433AF0} = {94594CC2-8998-4B70-8C91-C222A4D8EEE1}
 		{5CA41423-4A3C-4A94-BC18-B28BE2E6FA30} = {94594CC2-8998-4B70-8C91-C222A4D8EEE1}
 		{9BA27E52-9B33-49B6-992E-11FCEDD823AE} = {94594CC2-8998-4B70-8C91-C222A4D8EEE1}
+		{21AC8B8C-D594-455F-97D7-A1F33AE23075} = {94594CC2-8998-4B70-8C91-C222A4D8EEE1}
 	EndGlobalSection
 EndGlobal

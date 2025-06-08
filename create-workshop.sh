@@ -37,7 +37,7 @@ create_workshop() {
 }
 
 add_to_solution() {
-  dotnet sln add "${WORKSHOP_DIR}/${NAME}.csproj"
+  dotnet sln add $WORKSHOP_DIR
 }
 
 # --- Program ---

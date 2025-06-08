@@ -24,8 +24,5 @@ class Person(string name, DateTime birthDate)
     //     BirthDate = birthDate;
     // }
 
-    public int GetAge()
-    {
-        return (DateTime.Now - BirthDate).Days / 365;
-    }
+    public int GetAge() => (DateTime.Now - BirthDate).Days / 365;
 }

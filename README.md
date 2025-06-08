@@ -39,6 +39,15 @@ subfolder. So a project path will look like this:
 
 - `dotnet sln add <path>`: Adds a project to the current solution.
 
+## Bootstrap workshop
+
+To quickly bootstrap a new workshop, you can use the `create-workshop.sh` script. It will
+create a new project and add it to the current solution.
+
+```bash
+./create-workshop.sh <number> <category> <name> <type>
+```
+
 ## Contribute
 
 If you notice any mistakes or have suggestions, I’m all ears! I appreciate any feedback so

@@ -6,7 +6,7 @@ class Program
     {
         Employee employee = new("Pablo", new DateTime(1996, 6, 28), "Software Engineer");
 
-        Console.WriteLine($"{employee.Name} is {employee.GetAge()} years old and works as a {employee.JobTitle}.");
+        Console.WriteLine($"{employee.Name} is {employee.Age} years old and works as a {employee.JobTitle}.");
     }
 }
 
@@ -14,8 +14,7 @@ class Person(string name, DateTime birthDate)
 {
     public string Name { get; } = name;
     private readonly DateTime _birthDate = birthDate;
-
-    public int GetAge() => (DateTime.Now - _birthDate).Days / 365;
+    public int Age => (DateTime.Now - _birthDate).Days / 365;
 }
 
 class Employee(string name, DateTime birthDate, string jobTitle) : Person(name, birthDate)
